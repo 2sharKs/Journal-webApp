@@ -1,0 +1,23 @@
+<%- include('partials/header')-%>
+<h1>Home</h1>
+<p ><%= content%></p>
+
+<!-- <% for(var i=0;i<items.length;i++){ %>
+
+<div style="border-color: brown;background-color: burlywood;">
+    
+    <h3><%=items[i].title%></h3>
+    <p><%=items[i].content%></p>
+</div>
+<% } %> -->
+
+<% items.forEach(function(item){ %>
+    <div class="posted">
+    
+        <h3><%=item.title%></h3>
+        <p><%=_.truncate(item.text,{'length':150})%><span class="reveal-post-btn" "><a href="/posts/<%=item._id%>">  [Read more]</a></span></p>
+    </div>
+<% }); %>
+
+
+<%- include('partials/footer')-%>

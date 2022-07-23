@@ -1,0 +1,93 @@
+
+.header-nav {
+    padding: 1rem 0;
+    padding-left:5rem;
+    font-size: 1.3rem;
+    background-color:#395B64;
+    z-index: 5;
+}
+
+.toggler-custom{
+    transition: 1000ms;
+}
+
+.app-name{
+    font-size: 1.4rem;
+}
+
+.features{
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+.feature-item{
+    margin: auto 1rem;
+    color: #A5C9CA;
+
+}
+
+.feature-item:hover{
+    color:#FF9999;
+}
+
+/* body */
+.page-content{
+    height: fit-content;
+    padding: 3% 8%;
+    padding-bottom: 450px;
+    text-align: justify;
+    background-color: #E7F6F2;
+    
+}
+
+.posted{
+    background-color: #A5C9CA;
+    padding: 3% 5%;
+    border-width: 2px;
+    margin: 1rem auto;
+    border-radius: 2px;
+}
+
+
+/* Footer */
+
+.footer-div{
+    background-color:#2C3333;
+    margin: 0%;
+    padding: 1% 5%;
+    color:whitesmoke;
+    
+}
+
+p.footer-text{
+    margin: 0;
+    text-align: center;
+}
+
+
+/* compose-page */
+.compose-form{
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+}
+
+label.compose-form{
+    margin: 1rem auto 0.5rem;
+}
+
+input.compose-form, textarea.compose-form{
+    padding: 5px 5px;
+    margin-bottom: 1rem;
+    color: #395B64;
+    border-color: #395B64;
+}
+
+.reveal-post-btn a{
+    color: #395B64;
+    
+}
+
+.reveal-post-btn a:hover{
+    color: #E7F6F2;
+}
